@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': ^3.0.1
+  '@fontsource/playfair-display': 4.5.13
   astro: ^2.0.16
   eslint: ^8.35.0
   eslint-plugin-astro: ^0.23.0
@@ -9,6 +10,7 @@ specifiers:
 
 dependencies:
   '@astrojs/tailwind': 3.0.1_dcffs6vszochbmkyu5n7efg4ri
+  '@fontsource/playfair-display': 4.5.13
   astro: 2.0.16
   tailwindcss: 3.2.7
 
@@ -585,6 +587,10 @@ packages:
     resolution: {integrity: sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/playfair-display/4.5.13:
+    resolution: {integrity: sha512-41yD3XW8jATcZO8E2U6Xe9MIaogPdjrGkC4ixNzAIdrR3BvLxXpeHU2xw3rwIq8aHhFUYwLnE6Lq+BWSTZZH9w==}
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
