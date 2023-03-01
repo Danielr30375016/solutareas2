@@ -20,6 +20,7 @@
       "quotes": ["warn", "single"],
       "jsx-quotes": ["warn", "prefer-single"],
       "eol-last": "off",
-      "no-mixed-spaces-and-tabs": "warn"
+      "no-mixed-spaces-and-tabs": "warn",
+      "no-undef": "off"
     }
 }
