@@ -1,0 +1,19 @@
+<section class='w-screen h-screen absolute inset-0 pointer-events-none -z-10'>
+	<div class:list={[
+		'pointer-events-none bg-black',
+		'fix inset-0'
+	]}
+	>
+		<div class='background absolute inset-0'></div>
+	</div>
+</section>
+
+<style>
+  .background {
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+</style>
