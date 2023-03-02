@@ -1,0 +1,13 @@
+---
+const { href, name } = Astro.props
+---
+
+<li>
+	<a href={href}>{name}</a>
+</li>
+
+<style>
+  li:hover {
+    transform: scale(1.1);
+  }
+</style>
