@@ -1,0 +1,14 @@
+---
+const { img, description, title } = Astro.props
+---
+
+<div class='max-w-md p-2'>
+	<div class='bg-[#0009] rounded-lg text-white shadow-lg p-2 hover:scale-105 ease-linear duration-150'>
+		<img class='w-full object-cover h-[20rem] rounded-lg' src={ `/assets/${img}` } alt={title}>
+		<div class='p-2'>
+			<h1 class='font-bold text-xl'>{title}</h1>
+			<p >{description}</p>
+		</div>
+	</div>
+</div>
+
