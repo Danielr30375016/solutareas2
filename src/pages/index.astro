@@ -1,10 +1,14 @@
 ---
-import Main from '../components/sections/Main.astro';
-import Topics from '../components/sections/Topics.astro';
-import Layout from '../layouts/Layout.astro';
+import Contact from '../components/sections/Contact.astro'
+import Main from '../components/sections/Main.astro'
+import OurTeam from '../components/sections/OurTeam.astro'
+import Topics from '../components/sections/Topics.astro'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title='Solutareas'>
-	<Main client:visible />
+	<Main />
 	<Topics />
+	<OurTeam />
+	<Contact />
 </Layout>

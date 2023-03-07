@@ -5,7 +5,8 @@
     },
     "extends": [
       "eslint:recommended",
-      "plugin:astro/recommended"
+      "plugin:astro/recommended",
+      "standard"
     ],
     "overrides": [
     ],
@@ -20,7 +21,6 @@
       "quotes": ["warn", "single"],
       "jsx-quotes": ["warn", "prefer-single"],
       "eol-last": "off",
-      "no-mixed-spaces-and-tabs": "warn",
       "no-undef": "off"
     }
 }
